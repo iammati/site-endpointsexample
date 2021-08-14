@@ -1,0 +1,10 @@
+routes:
+  - prefix: '/yaml'
+    groups:
+    - routePath: '/v2'
+      middlewares:
+        - 'Site\SiteEndpoints\Middleware\ExtbaseBridge'
+      routes:
+        - methods: [GET]
+          routePath: '/wow'
+          callback: 'Site\SiteEndpointsexample\Controller\YamlController->wow'

@@ -1,0 +1,24 @@
+{
+    "name": "site/site-endpointsexample",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "version": "0.0.1",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mati",
+            "email": "mati_01@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Site\\SiteEndpointsexample\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "site_endpointsexample"
+        }
+    }
+}
